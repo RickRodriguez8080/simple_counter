@@ -9,7 +9,8 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
+import { SimpleCounter } from "./component/simpleCounter.js";
 
+// Rendering application from SimpleCounter
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+//ReactDOM.render(<SimpleCounter />, document.querySelector("#app"));
